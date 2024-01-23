@@ -1,9 +1,14 @@
-import React from 'react';
-import WebRoutes from './routing/WebRoutes';
+import React from "react";
+
+import WebRoutes from "./routing/WebRoutes";
 
 function App() {
   return (
-    <WebRoutes />
+    <>
+      <div>
+        <WebRoutes />
+      </div>
+    </>
   );
 }
 
