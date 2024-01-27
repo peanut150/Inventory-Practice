@@ -1,7 +1,9 @@
+import OffcanvasNav from "../../components/navbar/OffcanvasNav";
+
 function Dashboard() {
   return (
     <>
-      <h1>dashboard</h1>
+      <OffcanvasNav />
     </>
   );
 }
