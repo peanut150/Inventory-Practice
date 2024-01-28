@@ -1,95 +1,199 @@
+import * as Icon from "react-bootstrap-icons";
+
+import Logo from "../../assets/logo.png";
+
 function OffcanvasNav() {
   return (
     <>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
+      <nav className="navbar bg-body-tertiary fixed-top">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          {/*to be edited*/}
-          <a class="navbar-brand" href="#">
+          <a className="navbar-brand" href="#">
             {" "}
             Profile
           </a>
           <div
-            class="offcanvas offcanvas-start"
-            tabindex="-1"
+            className="offcanvas offcanvas-start"
+            tabIndex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Anna Inventory
-              </h5>
+            <div className="offcanvas-header d-flex align-items-center justify-content-start">
+              <img
+                src={Logo}
+                alt="LogoLogin"
+                style={{ width: "80px", height: "80px" }}
+              />
+              <div>
+                <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
+                  Anna Inventory
+                </h5>
+                <p style={{ fontSize: "12px" }}>Management Systems</p>
+              </div>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    Dashboard
+
+            <div className="offcanvas-body">
+              <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <p style={{ fontSize: "12px", marginBottom: "1px" }}>
+                  Main Menu
+                </p>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.Grid style={{ marginRight: "10px" }} />
+                      Dashboard
+                    </div>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Product
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.Box style={{ marginRight: "10px" }} />
+                      Product
+                    </div>
                   </a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.GlobeAsiaAustralia
+                        style={{ marginRight: "10px" }}
+                      />
+                      Inventory
+                    </div>
                   </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Something else here
-                      </a>
-                    </li>
-                  </ul>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.GeoAlt style={{ marginRight: "10px" }} />
+                      Warehouse
+                    </div>
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.Truck style={{ marginRight: "10px" }} />
+                      Transfer Product
+                    </div>
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.Bezier style={{ marginRight: "10px" }} />
+                      Stock
+                    </div>
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.Bezier2 style={{ marginRight: "10px" }} />
+                      Disburse Plan
+                    </div>
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.BoundingBoxCircles
+                        style={{ marginRight: "10px" }}
+                      />
+                      Reconciliation
+                    </div>
+                  </a>
+                </li>
+
+                <p
+                  style={{
+                    fontSize: "12px",
+                    marginBottom: "1px",
+                    marginTop: "30px",
+                  }}
+                >
+                  Other Menu
+                </p>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.PersonCircle style={{ marginRight: "10px" }} />
+                      Supplier
+                    </div>
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.Cup style={{ marginRight: "10px" }} />
+                      Invoice
+                    </div>
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.PinMap style={{ marginRight: "10px" }} />
+                      User Management
+                    </div>
+                  </a>
+                </li>
+
+                <p
+                  style={{
+                    fontSize: "12px",
+                    marginBottom: "1px",
+                    marginTop: "30px",
+                  }}
+                >
+                  Help & Settings
+                </p>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.InfoCircle style={{ marginRight: "10px" }} />
+                      Help & Center
+                    </div>
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <div className="d-flex align-items-center">
+                      <Icon.Gear style={{ marginRight: "10px" }} />
+                      Settings
+                    </div>
+                  </a>
                 </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
             </div>
           </div>
         </div>

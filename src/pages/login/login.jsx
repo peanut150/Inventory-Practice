@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import Logo from "../../assets/logo.jpg";
+import ProfileImg from "../../assets/profile.jpg";
 
 function Login() {
   const navigate = useNavigate();
@@ -21,7 +21,7 @@ function Login() {
             }}
           >
             <img
-              src={Logo}
+              src={ProfileImg}
               className="img-fluid rounded-circle"
               alt="LogoLogin"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
