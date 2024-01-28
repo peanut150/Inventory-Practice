@@ -23,6 +23,7 @@ function OffcanvasNav() {
           </a>
           <div
             className="offcanvas offcanvas-start"
+            data-bs-backdrop="static"
             tabIndex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
