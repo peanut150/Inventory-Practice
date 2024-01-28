@@ -1,6 +1,7 @@
 import * as Icon from "react-bootstrap-icons";
 
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
+import InventoryTable from "../../components/tables/InventoryTable";
 
 function Dashboard() {
   return (
@@ -37,6 +38,8 @@ function Dashboard() {
             </button>
           </div>
         </div>
+
+        <InventoryTable />
       </div>
     </>
   );
