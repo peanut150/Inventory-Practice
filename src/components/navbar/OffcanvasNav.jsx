@@ -27,21 +27,23 @@ function OffcanvasNav() {
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
-            <div className="offcanvas-header d-flex align-items-center justify-content-start">
-              <img
-                src={Logo}
-                alt="LogoLogin"
-                style={{ width: "80px", height: "80px" }}
-              />
-              <div>
-                <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                  Anna Inventory
-                </h5>
-                <p style={{ fontSize: "12px" }}>Management Systems</p>
+            <div className="offcanvas-header d-flex align-items-center justify-content-between">
+              <div className="d-flex align-items-center">
+                <img
+                  src={Logo}
+                  alt="LogoLogin"
+                  style={{ width: "80px", height: "80px", marginRight: "10px" }}
+                />
+                <div>
+                  <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
+                    Anna Inventory
+                  </h5>
+                  <p style={{ fontSize: "12px" }}>Management Systems</p>
+                </div>
               </div>
               <button
                 type="button"
-                className="btn-close"
+                className="btn-close position-absolute top-0 end-0 m-3"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
@@ -49,7 +51,13 @@ function OffcanvasNav() {
 
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <p style={{ fontSize: "12px", marginBottom: "1px" }}>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    marginBottom: "1px",
+                    marginTop: "-20px",
+                  }}
+                >
                   Main Menu
                 </p>
 
