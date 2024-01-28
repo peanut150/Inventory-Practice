@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import * as Icon from "react-bootstrap-icons";
 
 import Logo from "../../assets/logo.png";
@@ -63,79 +64,111 @@ function OffcanvasNav() {
                 </p>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/dashboard"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.Grid style={{ marginRight: "10px" }} />
                       Dashboard
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/product"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.Box style={{ marginRight: "10px" }} />
                       Product
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/inventory"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.GlobeAsiaAustralia
                         style={{ marginRight: "10px" }}
                       />
                       Inventory
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/warehouse"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.GeoAlt style={{ marginRight: "10px" }} />
                       Warehouse
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/TransferProduct"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.Truck style={{ marginRight: "10px" }} />
                       Transfer Product
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/stock"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.Bezier style={{ marginRight: "10px" }} />
                       Stock
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/DisbursePlan"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.Bezier2 style={{ marginRight: "10px" }} />
                       Disburse Plan
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/reconciliation"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.BoundingBoxCircles
                         style={{ marginRight: "10px" }}
                       />
                       Reconciliation
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <p
@@ -149,30 +182,42 @@ function OffcanvasNav() {
                 </p>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/supplier"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.PersonCircle style={{ marginRight: "10px" }} />
                       Supplier
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/invoice"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.Cup style={{ marginRight: "10px" }} />
                       Invoice
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/UserManagement"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.PinMap style={{ marginRight: "10px" }} />
                       User Management
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <p
@@ -186,21 +231,29 @@ function OffcanvasNav() {
                 </p>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/HelpCenter"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.InfoCircle style={{ marginRight: "10px" }} />
                       Help & Center
                     </div>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to="/settings"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
                     <div className="d-flex align-items-center">
                       <Icon.Gear style={{ marginRight: "10px" }} />
                       Settings
                     </div>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
