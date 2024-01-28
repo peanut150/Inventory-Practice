@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+
 import Login from "./pages/login/login";
 import Signup from "./pages/signup/signup";
 import Dashboard from "./pages/dashboard/dashboard";
@@ -14,6 +15,7 @@ import Invoice from "./pages/invoice/invoice";
 import UserManagement from "./pages/UserManagement/UserManagement";
 import HelpCenter from "./pages/HelpCenter/HelpCenter";
 import Settings from "./pages/settings/settings";
+import Profile from "./pages/profile/profile";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
         <Route path="/UserManagement" element={<UserManagement />} />
         <Route path="/HelpCenter" element={<HelpCenter />} />
         <Route path="/settings" element={<Settings />} />
+
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );

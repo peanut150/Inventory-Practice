@@ -4,9 +4,13 @@ import * as Icon from "react-bootstrap-icons";
 import Logo from "../../assets/logo.png";
 
 function OffcanvasNav() {
+  const handleNotifClick = () => {
+    console.log();
+  };
+
   return (
     <>
-      <nav className="navbar bg-body-tertiary fixed-top">
+      <nav className="navbar fixed-top" style={{ backgroundColor: "#ADD8E6" }}>
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -18,10 +22,33 @@ function OffcanvasNav() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <a className="navbar-brand" href="#">
-            {" "}
+
+          <div className="d-flex align-items-center me-auto">
+            <form
+              className="d-flex"
+              style={{ marginLeft: "40px" }}
+              role="search"
+            >
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+
+          <Icon.Bell
+            style={{ marginRight: "30px", cursor: "pointer" }}
+            onClick={() => handleNotifClick()}
+          />
+
+          <Link to="/profile" className="navbar-brand">
             Profile
-          </a>
+          </Link>
           <div
             className="offcanvas offcanvas-start"
             data-bs-backdrop="static"
