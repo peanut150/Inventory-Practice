@@ -1,3 +1,4 @@
+import * as Icon from "react-bootstrap-icons";
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
 
 function Dashboard() {
@@ -21,39 +22,234 @@ function Dashboard() {
             alignItems: "center",
           }}
         >
-          <div>
-            <h1>Dashboard</h1>
-            <p style={{ marginBottom: "20px" }}>Dashboard /</p>
+          <div style={{ display: "flex" }}>
+            <div style={{ marginRight: "20px" }}>
+              <h1>Dashboard</h1>
+              <p style={{ marginBottom: "20px" }}>Dashboard /</p>
 
-            <div
-              className="card"
-              style={{
-                width: "13em",
-                height: "7em",
-                border: "none",
-                alignItems: "center",
-              }}
-            >
-              <div
-                className="card-body"
-                style={{
-                  backgroundColor: "white",
-                  borderRadius: "10px",
-                }}
-              >
-                <p
-                  className="card-text fw-semibold"
-                  style={{ color: "black", marginBottom: "7px" }}
+              <div style={{ display: "flex" }}>
+                {/* First Card */}
+                <div
+                  className="card"
+                  style={{
+                    width: "14em",
+                    height: "7em",
+                    border: "none",
+                  }}
                 >
-                  Total Products
-                </p>
+                  <div
+                    className="card-body"
+                    style={{
+                      backgroundColor: "white",
+                      borderRadius: "10px",
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      padding: "10px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: "40px",
+                        height: "40px",
+                        borderRadius: "50%",
+                        backgroundColor: "#CEFAD0",
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        marginRight: "15px",
+                      }}
+                    >
+                      <Icon.BoxSeam color="black" size={18} />
+                    </div>
+                    <div>
+                      <p
+                        className="card-text fw-semibold"
+                        style={{ color: "black", marginBottom: "2px" }}
+                      >
+                        Total Products
+                        <Icon.ArrowUpRight style={{ marginLeft: "24px" }} />
+                      </p>
+                      <p
+                        className="card-text fw-bold"
+                        style={{
+                          color: "black",
+                          fontSize: "2em",
+                        }}
+                      >
+                        9
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-                <p
-                  className="card-text fw-bold"
-                  style={{ color: "black", fontSize: "2em" }}
+                {/* Second Card */}
+                <div
+                  className="card"
+                  style={{
+                    width: "14em",
+                    height: "7em",
+                    border: "none",
+                    marginLeft: "20px",
+                  }}
                 >
-                  9
-                </p>
+                  <div
+                    className="card-body"
+                    style={{
+                      backgroundColor: "white",
+                      borderRadius: "10px",
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      padding: "10px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: "40px",
+                        height: "40px",
+                        borderRadius: "50%",
+                        backgroundColor: "#CEFAD0",
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        marginRight: "15px",
+                      }}
+                    >
+                      <Icon.BoxSeam color="black" size={18} />
+                    </div>
+                    <div>
+                      <p
+                        className="card-text fw-semibold"
+                        style={{ color: "black", marginBottom: "2px" }}
+                      >
+                        Low Stock
+                        <Icon.ArrowUpRight style={{ marginLeft: "53px" }} />
+                      </p>
+                      <p
+                        className="card-text fw-bold"
+                        style={{
+                          color: "#FFBF00",
+                          fontSize: "2em",
+                        }}
+                      >
+                        4
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Third Card */}
+                <div
+                  className="card"
+                  style={{
+                    width: "14em",
+                    height: "7em",
+                    border: "none",
+                    marginLeft: "20px",
+                  }}
+                >
+                  <div
+                    className="card-body"
+                    style={{
+                      backgroundColor: "white",
+                      borderRadius: "10px",
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      padding: "10px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: "40px",
+                        height: "40px",
+                        borderRadius: "50%",
+                        backgroundColor: "#CEFAD0",
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        marginRight: "15px",
+                      }}
+                    >
+                      <Icon.BoxSeam color="black" size={18} />
+                    </div>
+                    <div>
+                      <p
+                        className="card-text fw-semibold"
+                        style={{ color: "black", marginBottom: "2px" }}
+                      >
+                        Out of Stock
+                        <Icon.ArrowUpRight style={{ marginLeft: "37px" }} />
+                      </p>
+                      <p
+                        className="card-text fw-bold"
+                        style={{
+                          color: "#EE6B6E",
+                          fontSize: "2em",
+                        }}
+                      >
+                        1
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Fourth Card */}
+                <div
+                  className="card"
+                  style={{
+                    width: "14em",
+                    height: "7em",
+                    border: "none",
+                    marginLeft: "20px",
+                  }}
+                >
+                  <div
+                    className="card-body"
+                    style={{
+                      backgroundColor: "white",
+                      borderRadius: "10px",
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      padding: "10px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: "40px",
+                        height: "40px",
+                        borderRadius: "50%",
+                        backgroundColor: "#CEFAD0",
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        marginRight: "15px",
+                      }}
+                    >
+                      <Icon.BoxSeam color="black" size={18} />
+                    </div>
+                    <div>
+                      <p
+                        className="card-text fw-semibold"
+                        style={{ color: "black", marginBottom: "2px" }}
+                      >
+                        Suppliers
+                        <Icon.ArrowUpRight style={{ marginLeft: "60px" }} />
+                      </p>
+                      <p
+                        className="card-text fw-bold"
+                        style={{
+                          color: "black",
+                          fontSize: "2em",
+                        }}
+                      >
+                        5
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
