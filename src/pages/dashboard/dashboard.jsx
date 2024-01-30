@@ -1,5 +1,7 @@
 import * as Icon from "react-bootstrap-icons";
+
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
+import DropdownDashboard from "../../components/dropdowns/DropdownDashboard";
 
 function Dashboard() {
   document.body.style.backgroundColor = "#F5F5F5";
@@ -449,6 +451,8 @@ function Dashboard() {
                 </div>
               </div>
             </div>
+
+            <DropdownDashboard />
           </div>
         </div>
       </div>
