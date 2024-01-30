@@ -10,7 +10,7 @@ function OffcanvasNav() {
 
   return (
     <>
-      <nav className="navbar fixed-top" style={{ backgroundColor: "#ADD8E6" }}>
+      <nav className="navbar fixed-top" style={{ backgroundColor: "#fff" }}>
         <div className="container-fluid">
           <button
             className="navbar-toggler"
