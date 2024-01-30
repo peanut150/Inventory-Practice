@@ -1,9 +1,8 @@
-import * as Icon from "react-bootstrap-icons";
-
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
-import InventoryTable from "../../components/tables/InventoryTable";
 
 function Dashboard() {
+  document.body.style.backgroundColor = "#F5F5F5";
+
   return (
     <>
       <OffcanvasNav />
@@ -23,23 +22,9 @@ function Dashboard() {
           }}
         >
           <div>
-            <h1>Inventory</h1>
-            <p>Dashboard / Inventory</p>
-          </div>
-
-          <div style={{ display: "flex", gap: "10px" }}>
-            <button type="button" className="btn btn-outline-warning">
-              <Icon.BoxArrowUp style={{ marginRight: "8px" }} />
-              Export
-            </button>
-
-            <button type="button" className="btn btn-warning">
-              Add Inventory
-            </button>
+            <h1>Dashboard Page</h1>
           </div>
         </div>
-
-        <InventoryTable />
       </div>
     </>
   );
