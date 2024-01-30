@@ -23,22 +23,14 @@ function OffcanvasNav() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="d-flex align-items-center me-auto">
-            <form
-              className="d-flex"
-              style={{ marginLeft: "40px" }}
-              role="search"
-            >
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+          <div className="d-flex align-items-center me-auto ">
+            <input
+              className="form-control me-2 d-flex"
+              style={{ marginLeft: "30px", width: "95em" }}
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
           </div>
 
           <Icon.Bell
