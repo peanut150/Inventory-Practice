@@ -26,7 +26,7 @@ function OffcanvasNav() {
           <div className="d-flex align-items-center me-auto ">
             <input
               className="form-control me-2 d-flex"
-              style={{ marginLeft: "30px", width: "40em" }}
+              style={{ marginLeft: "30px", width: "34em" }}
               type="search"
               placeholder="Search"
               aria-label="Search"
