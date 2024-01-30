@@ -13,6 +13,7 @@ function InventoryTable() {
         borderRadius: "20px",
         display: "flex",
         flexDirection: "column", // Change to column direction
+        justifyContent: "space-between", // Align items vertically with space between
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
@@ -22,6 +23,33 @@ function InventoryTable() {
           style={{ height: "30px", width: "30px" }}
         />
         <p style={{ margin: "0", fontSize: "18px" }}>Inventory</p>
+
+        <form
+          className="d-flex"
+          role="search"
+          style={{ width: "100%", justifyContent: "flex-end" }}
+        >
+          <div className="input-group" style={{ width: "18em" }}>
+            <span className="input-group-text">
+              <Icon.Search />
+            </span>
+            <input
+              className="form-control me-2"
+              type="search"
+              placeholder="Search anything here"
+              aria-label="SearchInventory"
+            />
+          </div>
+
+          <button
+            className="btn btn-outline-secondary fw-semibold"
+            style={{ width: "6em" }}
+            type="submit"
+          >
+            <Icon.Funnel style={{ marginRight: "5px" }} />
+            Filter
+          </button>
+        </form>
       </div>
 
       <div style={{ marginTop: "35px" }}>
