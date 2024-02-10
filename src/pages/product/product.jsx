@@ -23,7 +23,7 @@ function Product() {
       {/* 1st Row */}
       <div className="row">
         {/* Products Filter Search */}
-        <div className="col-11">
+        <div className="col-10">
           <input
             className="form-control me-2"
             type="search"
@@ -33,7 +33,7 @@ function Product() {
         </div>
 
         {/* Products Filter Select */}
-        <div className="col-1">
+        <div className="col-2">
           <select class="form-select" aria-label="List of Products Filter">
             <option selected>Filter</option>
             <option value="1">All</option>
@@ -44,9 +44,9 @@ function Product() {
       </div>
 
       {/* 2nd Row */}
-      <div className="row">
+      <div className="row ms-5">
         {/* List of Products Cards */}
-        <div className="col-3 mt-4">
+        <div className="col-3 mt-4 g-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
             <img src={Glasses1} class="card-img-top" alt="Glasses1" />
             <div class="card-body">
@@ -71,7 +71,7 @@ function Product() {
                 XL Large Chunky Square Glasses Clear Lens Thick Frame Nerd
                 Eyewear Bold New
               </h5>
-              <p class="card-text">
+              <p class="card-text text-muted">
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P726.14
@@ -82,12 +82,12 @@ function Product() {
 
         <div className="col-3 mt-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
-            <img src={Glasses3} class="card-img-top" alt="Glasses3" />
-            <div class="card-body">
+            <img src={Glasses3} class="card-img-top mt-5" alt="Glasses3" />
+            <div class="card-body mt-4">
               <h5 class="card-title">
                 The Thinker Computer Anti-blue Light Glasses
               </h5>
-              <p class="card-text">
+              <p class="card-text text-muted" style={{ marginTop: "3.4rem" }}>
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P850.00
@@ -98,13 +98,18 @@ function Product() {
 
         <div className="col-3 mt-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
-            <img src={Glasses4} class="card-img-top" alt="Glasses4" />
-            <div class="card-body">
+            <img
+              src={Glasses4}
+              class="card-img-top"
+              style={{ marginTop: "6rem" }}
+              alt="Glasses4"
+            />
+            <div class="card-body" style={{ marginTop: "3.8rem" }}>
               <h5 class="card-title">
                 Vast Round Anti Glare Black Frame Unisex Computer Glasses
                 (3447_ARC, Transparent, Medium)
               </h5>
-              <p class="card-text">
+              <p class="card-text text-muted">
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
@@ -121,7 +126,7 @@ function Product() {
                 ZM Fashion glasses Trendy Korean Eyeglasses with Grade 0-400
                 Anti-radiation Blue Light Glasses
               </h5>
-              <p class="card-text">
+              <p class="card-text text-muted">
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
@@ -132,10 +137,10 @@ function Product() {
 
         <div className="col-3 mt-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
-            <img src={Glasses6} class="card-img-top" alt="Glasses6" />
-            <div class="card-body">
+            <img src={Glasses6} class="card-img-top mt-5" alt="Glasses6" />
+            <div class="card-body mt-2">
               <h5 class="card-title">Balenciaga Glasses BB0276O 001</h5>
-              <p class="card-text">
+              <p class="card-text text-muted" style={{ marginTop: "3.6rem" }}>
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
@@ -146,10 +151,15 @@ function Product() {
 
         <div className="col-3 mt-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
-            <img src={Glasses7} class="card-img-top" alt="Glasses7" />
-            <div class="card-body">
+            <img
+              src={Glasses7}
+              class="card-img-top"
+              style={{ marginTop: "4rem" }}
+              alt="Glasses7"
+            />
+            <div class="card-body" style={{ marginTop: "2.5rem" }}>
               <h5 class="card-title">Glasses RALPH LAUREN RL6233U</h5>
-              <p class="card-text">
+              <p class="card-text text-muted" style={{ marginTop: "3.7rem" }}>
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
@@ -163,7 +173,7 @@ function Product() {
             <img src={Glasses8} class="card-img-top" alt="Glasses8" />
             <div class="card-body">
               <h5 class="card-title">Ralph RA 7132U - 5885 Shiny Havana</h5>
-              <p class="card-text">
+              <p class="card-text text-muted" style={{ marginTop: "3.5rem" }}>
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
