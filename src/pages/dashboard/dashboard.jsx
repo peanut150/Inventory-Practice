@@ -110,7 +110,7 @@ function Dashboard() {
                 <p class="card-title fw-semibold mt-2">
                   Out of Stock
                   <Icon.ArrowUpRight
-                    class="ms-5"
+                    class="ms-4"
                     style={{ cursor: "pointer" }}
                   />
                 </p>

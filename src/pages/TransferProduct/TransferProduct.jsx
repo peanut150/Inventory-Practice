@@ -9,7 +9,7 @@ function TransferProduct() {
     <div className="container-fluid p-5 mt-4">
       <OffcanvasNav />
 
-      <div className="d-flex justify-content-between align-items-center mb-4">
+      <div className="d-flex justify-content-between align-items-center mb-1">
         <div>
           <h1>Transfer Product</h1>
           <p class="text-muted">Dashboard / Transfer Product</p>
@@ -115,7 +115,7 @@ function TransferProduct() {
       </div>
 
       {/* 2nd Row */}
-      <div className="row mt-3">
+      <div className="row mt-4">
         <div class="col-12">
           <div class="card border-0">
             <div class="card-body p-3 d-flex align-items-start">
