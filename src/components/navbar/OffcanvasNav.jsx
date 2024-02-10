@@ -149,34 +149,6 @@ function OffcanvasNav() {
                   </Link>
                 </li>
 
-                <li className="nav-item">
-                  <Link
-                    to="/DisbursePlan"
-                    className="nav-link active"
-                    aria-current="page"
-                  >
-                    <div className="d-flex align-items-center">
-                      <Icon.Bezier2 style={{ marginRight: "10px" }} />
-                      Disburse Plan
-                    </div>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    to="/reconciliation"
-                    className="nav-link active"
-                    aria-current="page"
-                  >
-                    <div className="d-flex align-items-center">
-                      <Icon.BoundingBoxCircles
-                        style={{ marginRight: "10px" }}
-                      />
-                      Reconciliation
-                    </div>
-                  </Link>
-                </li>
-
                 <p
                   style={{
                     fontSize: "12px",

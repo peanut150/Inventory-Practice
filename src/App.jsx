@@ -7,8 +7,6 @@ import Product from "./pages/product/product";
 import Inventory from "./pages/inventory/inventory";
 import TransferProduct from "./pages/TransferProduct/TransferProduct";
 import Stock from "./pages/stock/stock";
-import DisbursePlan from "./pages/DisbursePlan/DisbursePlan";
-import Reconciliation from "./pages/reconciliation/reconciliation";
 import Supplier from "./pages/supplier/supplier";
 import Invoice from "./pages/invoice/invoice";
 import UserManagement from "./pages/UserManagement/UserManagement";
@@ -28,8 +26,6 @@ function App() {
         <Route path="/inventory" element={<Inventory />} />
         <Route path="/TransferProduct" element={<TransferProduct />} />
         <Route path="/stock" element={<Stock />} />
-        <Route path="/DisbursePlan" element={<DisbursePlan />} />
-        <Route path="/reconciliation" element={<Reconciliation />} />
         <Route path="/supplier" element={<Supplier />} />
         <Route path="/invoice" element={<Invoice />} />
         <Route path="/UserManagement" element={<UserManagement />} />
