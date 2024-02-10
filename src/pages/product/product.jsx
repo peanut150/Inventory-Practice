@@ -49,6 +49,14 @@ function Product() {
         <div className="col-3 mt-4 g-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
             <img src={Glasses1} class="card-img-top" alt="Glasses1" />
+            <div className="card-img-overlay">
+              <p
+                className="card-text p-1 bg-success-subtle rounded-3 text-center text-success fw-semibold"
+                style={{ width: "6rem", fontSize: "14px" }}
+              >
+                Available
+              </p>
+            </div>
             <div class="card-body">
               <h5 class="card-title">
                 Round Glasses Retro Vintage Classic Round Metal Clear Lens
@@ -66,6 +74,14 @@ function Product() {
         <div className="col-3 mt-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
             <img src={Glasses2} class="card-img-top" alt="Glasses2" />
+            <div className="card-img-overlay">
+              <p
+                className="card-text p-1 bg-success-subtle rounded-3 text-center text-success fw-semibold"
+                style={{ width: "6rem", fontSize: "14px" }}
+              >
+                Available
+              </p>
+            </div>
             <div class="card-body">
               <h5 class="card-title">
                 XL Large Chunky Square Glasses Clear Lens Thick Frame Nerd
@@ -83,6 +99,14 @@ function Product() {
         <div className="col-3 mt-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
             <img src={Glasses3} class="card-img-top mt-5" alt="Glasses3" />
+            <div className="card-img-overlay">
+              <p
+                className="card-text p-1 bg-danger-subtle rounded-3 text-center text-danger fw-semibold"
+                style={{ width: "6rem", fontSize: "14px" }}
+              >
+                Disabled
+              </p>
+            </div>
             <div class="card-body mt-4">
               <h5 class="card-title">
                 The Thinker Computer Anti-blue Light Glasses
@@ -104,6 +128,14 @@ function Product() {
               style={{ marginTop: "6rem" }}
               alt="Glasses4"
             />
+            <div className="card-img-overlay">
+              <p
+                className="card-text p-1 bg-success-subtle rounded-3 text-center text-success fw-semibold"
+                style={{ width: "6rem", fontSize: "14px" }}
+              >
+                Available
+              </p>
+            </div>
             <div class="card-body" style={{ marginTop: "3.8rem" }}>
               <h5 class="card-title">
                 Vast Round Anti Glare Black Frame Unisex Computer Glasses
@@ -121,6 +153,14 @@ function Product() {
         <div className="col-3 mt-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
             <img src={Glasses5} class="card-img-top" alt="Glasses5" />
+            <div className="card-img-overlay">
+              <p
+                className="card-text p-1 bg-success-subtle rounded-3 text-center text-success fw-semibold"
+                style={{ width: "6rem", fontSize: "14px" }}
+              >
+                Available
+              </p>
+            </div>
             <div class="card-body">
               <h5 class="card-title">
                 ZM Fashion glasses Trendy Korean Eyeglasses with Grade 0-400
@@ -138,6 +178,14 @@ function Product() {
         <div className="col-3 mt-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
             <img src={Glasses6} class="card-img-top mt-5" alt="Glasses6" />
+            <div className="card-img-overlay">
+              <p
+                className="card-text p-1 bg-danger-subtle rounded-3 text-center text-danger fw-semibold"
+                style={{ width: "6rem", fontSize: "14px" }}
+              >
+                Disabled
+              </p>
+            </div>
             <div class="card-body mt-2">
               <h5 class="card-title">Balenciaga Glasses BB0276O 001</h5>
               <p class="card-text text-muted" style={{ marginTop: "3.6rem" }}>
@@ -157,6 +205,14 @@ function Product() {
               style={{ marginTop: "4rem" }}
               alt="Glasses7"
             />
+            <div className="card-img-overlay">
+              <p
+                className="card-text p-1 bg-success-subtle rounded-3 text-center text-success fw-semibold"
+                style={{ width: "6rem", fontSize: "14px" }}
+              >
+                Available
+              </p>
+            </div>
             <div class="card-body" style={{ marginTop: "2.5rem" }}>
               <h5 class="card-title">Glasses RALPH LAUREN RL6233U</h5>
               <p class="card-text text-muted" style={{ marginTop: "3.7rem" }}>
@@ -171,6 +227,14 @@ function Product() {
         <div className="col-3 mt-4">
           <div class="card" style={{ width: "18rem", height: "28rem" }}>
             <img src={Glasses8} class="card-img-top" alt="Glasses8" />
+            <div className="card-img-overlay">
+              <p
+                className="card-text p-1 bg-success-subtle rounded-3 text-center text-success fw-semibold"
+                style={{ width: "6rem", fontSize: "14px" }}
+              >
+                Available
+              </p>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Ralph RA 7132U - 5885 Shiny Havana</h5>
               <p class="card-text text-muted" style={{ marginTop: "3.5rem" }}>
