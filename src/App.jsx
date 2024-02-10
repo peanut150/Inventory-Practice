@@ -5,7 +5,6 @@ import Signup from "./pages/signup/signup";
 import Dashboard from "./pages/dashboard/dashboard";
 import Product from "./pages/product/product";
 import Inventory from "./pages/inventory/inventory";
-import Warehouse from "./pages/warehouse/warehouse";
 import TransferProduct from "./pages/TransferProduct/TransferProduct";
 import Stock from "./pages/stock/stock";
 import DisbursePlan from "./pages/DisbursePlan/DisbursePlan";
@@ -27,7 +26,6 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/product" element={<Product />} />
         <Route path="/inventory" element={<Inventory />} />
-        <Route path="/warehouse" element={<Warehouse />} />
         <Route path="/TransferProduct" element={<TransferProduct />} />
         <Route path="/stock" element={<Stock />} />
         <Route path="/DisbursePlan" element={<DisbursePlan />} />

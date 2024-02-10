@@ -125,19 +125,6 @@ function OffcanvasNav() {
 
                 <li className="nav-item">
                   <Link
-                    to="/warehouse"
-                    className="nav-link active"
-                    aria-current="page"
-                  >
-                    <div className="d-flex align-items-center">
-                      <Icon.GeoAlt style={{ marginRight: "10px" }} />
-                      Warehouse
-                    </div>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
                     to="/TransferProduct"
                     className="nav-link active"
                     aria-current="page"
