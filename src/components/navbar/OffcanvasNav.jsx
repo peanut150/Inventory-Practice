@@ -174,19 +174,6 @@ function OffcanvasNav() {
 
                 <li className="nav-item">
                   <Link
-                    to="/invoice"
-                    className="nav-link active"
-                    aria-current="page"
-                  >
-                    <div className="d-flex align-items-center">
-                      <Icon.Cup style={{ marginRight: "10px" }} />
-                      Invoice
-                    </div>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
                     to="/UserManagement"
                     className="nav-link active"
                     aria-current="page"

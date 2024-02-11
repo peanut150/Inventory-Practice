@@ -8,7 +8,6 @@ import Inventory from "./pages/inventory/inventory";
 import TransferProduct from "./pages/TransferProduct/TransferProduct";
 import Stock from "./pages/stock/stock";
 import Supplier from "./pages/supplier/supplier";
-import Invoice from "./pages/invoice/invoice";
 import UserManagement from "./pages/UserManagement/UserManagement";
 import HelpCenter from "./pages/HelpCenter/HelpCenter";
 import Settings from "./pages/settings/settings";
@@ -27,7 +26,6 @@ function App() {
         <Route path="/TransferProduct" element={<TransferProduct />} />
         <Route path="/stock" element={<Stock />} />
         <Route path="/supplier" element={<Supplier />} />
-        <Route path="/invoice" element={<Invoice />} />
         <Route path="/UserManagement" element={<UserManagement />} />
         <Route path="/HelpCenter" element={<HelpCenter />} />
         <Route path="/settings" element={<Settings />} />
