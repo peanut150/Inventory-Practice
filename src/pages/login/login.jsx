@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import ProfileImg from "../../assets/profile.jpg";
+import ForgotPassModal from "../../components/modal/ForgotPassModal";
 
 function Login() {
   const navigate = useNavigate();
@@ -45,17 +46,24 @@ function Login() {
               aria-label="PasswordInput"
             />
 
+            {/* Forgot Password Link */}
             <p style={{ fontSize: "14px", marginBottom: "0" }}>
               Forgot{" "}
-              <a
+              <Link
                 className="link-offset-2 link-underline link-underline-opacity-0 fw-semibold"
                 style={{ color: "#424874" }}
-                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#forgotpass-modal"
               >
                 Password
-              </a>{" "}
+              </Link>{" "}
               ?
             </p>
+
+            {/* Forgot Password Modal */}
+            <ForgotPassModal />
+
+            {/* Sign Up Link */}
             <p style={{ fontSize: "14px" }}>
               Don't have an account?{" "}
               <Link
