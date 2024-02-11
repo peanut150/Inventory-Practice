@@ -192,21 +192,8 @@ function OffcanvasNav() {
                     marginTop: "30px",
                   }}
                 >
-                  Help & Settings
+                  Settings
                 </p>
-
-                <li className="nav-item">
-                  <Link
-                    to="/HelpCenter"
-                    className="nav-link active"
-                    aria-current="page"
-                  >
-                    <div className="d-flex align-items-center">
-                      <Icon.InfoCircle style={{ marginRight: "10px" }} />
-                      Help & Center
-                    </div>
-                  </Link>
-                </li>
 
                 <li className="nav-item">
                   <Link
