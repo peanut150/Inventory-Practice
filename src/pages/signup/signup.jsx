@@ -23,49 +23,49 @@ function Signup() {
           <div style={{ width: "300px", textAlign: "left" }}>
             <input
               className="form-control border-0 border-bottom outline-0 mb-3"
+              style={{ boxShadow: "none", backgroundColor: "#F4EEFF" }}
               type="text"
               placeholder="First Name"
               aria-label="FirstNameInput"
-              style={{ boxShadow: "none" }}
             />
 
             <input
               className="form-control border-0 border-bottom outline-0 mb-3"
+              style={{ boxShadow: "none", backgroundColor: "#F4EEFF" }}
               type="text"
               placeholder="Last Name"
               aria-label="LastNameInput"
-              style={{ boxShadow: "none" }}
             />
 
             <input
               className="form-control border-0 border-bottom outline-0 mb-3"
+              style={{ boxShadow: "none", backgroundColor: "#F4EEFF" }}
               type="email"
               placeholder="Email"
               aria-label="EmailInput"
-              style={{ boxShadow: "none" }}
             />
 
             <input
               className="form-control border-0 border-bottom outline-0 mb-3"
+              style={{ boxShadow: "none", backgroundColor: "#F4EEFF" }}
               type="password"
               placeholder="Password"
               aria-label="PasswordInput"
-              style={{ boxShadow: "none" }}
             />
 
             <input
               className="form-control border-0 border-bottom outline-0 mb-3"
+              style={{ boxShadow: "none", backgroundColor: "#F4EEFF" }}
               type="password"
               placeholder="Confirm Password"
               aria-label="ConfirmPasswordInput"
-              style={{ boxShadow: "none" }}
             />
 
             <div className="d-grid gap-2 mt-5">
               <button
                 type="button"
-                className="btn rounded-pill fw-semibold"
-                style={{ backgroundColor: "#71C562", color: "#fff" }}
+                className="btn rounded-pill fw-bold text-white"
+                style={{ backgroundColor: "#424874" }}
               >
                 SIGN UP
               </button>

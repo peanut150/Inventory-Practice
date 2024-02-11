@@ -3,12 +3,10 @@ import * as Icon from "react-bootstrap-icons";
 import Logo from "../../assets/logo.png";
 
 function InventoryTable() {
-  document.body.style.backgroundColor = "#F5F5F5";
-
   return (
     <div
       style={{
-        backgroundColor: "#fff",
+        backgroundColor: "#DCD6F7",
         padding: "20px",
         borderRadius: "20px",
         display: "flex",
@@ -42,11 +40,11 @@ function InventoryTable() {
           </div>
 
           <button
-            className="btn btn-outline-secondary fw-semibold"
-            style={{ width: "6em" }}
+            className="btn fw-semibold"
+            style={{ width: "6em", borderColor: "#424874" }}
             type="submit"
           >
-            <Icon.Funnel style={{ marginRight: "5px" }} />
+            <Icon.Funnel style={{ marginRight: "5px", color: "#424874" }} />
             Filter
           </button>
         </form>
@@ -56,7 +54,7 @@ function InventoryTable() {
         <table className="table table-borderless">
           <thead>
             <tr>
-              <th scope="col">
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
                 <input
                   class="form-check-input"
                   type="checkbox"
@@ -64,21 +62,39 @@ function InventoryTable() {
                   id="flexCheckDefault"
                 />
               </th>
-              <th scope="col">No</th>
-              <th scope="col">Product</th>
-              <th scope="col">Product ID</th>
-              <th scope="col">Category</th>
-              <th scope="col">Location</th>
-              <th scope="col">Available</th>
-              <th scope="col">Reserved</th>
-              <th scope="col">On Hand</th>
-              <th scope="col">Action</th>
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+                No
+              </th>
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+                Product
+              </th>
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+                Product ID
+              </th>
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+                Category
+              </th>
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+                Location
+              </th>
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+                Available
+              </th>
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+                Reserved
+              </th>
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+                On Hand
+              </th>
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+                Action
+              </th>
             </tr>
           </thead>
 
           <tbody>
             <tr>
-              <th scope="col">
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
                 <input
                   class="form-check-input"
                   type="checkbox"
@@ -86,15 +102,17 @@ function InventoryTable() {
                   id="flexCheckDefault"
                 />
               </th>
-              <th scope="row">01</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>
+              <th scope="row" style={{ backgroundColor: "#DCD6F7" }}>
+                01
+              </th>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Mark</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Otto</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>
                 <button
                   style={{
                     marginRight: "5px",
@@ -130,7 +148,7 @@ function InventoryTable() {
             </tr>
 
             <tr>
-              <th scope="col">
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
                 <input
                   class="form-check-input"
                   type="checkbox"
@@ -138,15 +156,17 @@ function InventoryTable() {
                   id="flexCheckDefault"
                 />
               </th>
-              <th scope="row">02</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>
+              <th scope="row" style={{ backgroundColor: "#DCD6F7" }}>
+                02
+              </th>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Jacob</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Thornton</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@fat</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>
                 <button
                   style={{
                     marginRight: "5px",
@@ -182,7 +202,7 @@ function InventoryTable() {
             </tr>
 
             <tr>
-              <th scope="col">
+              <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
                 <input
                   class="form-check-input"
                   type="checkbox"
@@ -190,14 +210,17 @@ function InventoryTable() {
                   id="flexCheckDefault"
                 />
               </th>
-              <th scope="row">03</th>
-              <td colspan="2">Larry the Bird</td>
-              <td>@twitter</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>
+              <th scope="row" style={{ backgroundColor: "#DCD6F7" }}>
+                03
+              </th>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Larry the Bird</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@twitter</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>
                 <button
                   style={{
                     marginRight: "5px",

@@ -10,7 +10,7 @@ function OffcanvasNav() {
 
   return (
     <>
-      <nav className="navbar fixed-top" style={{ backgroundColor: "#fff" }}>
+      <nav className="navbar fixed-top" style={{ backgroundColor: "#A6B1E1" }}>
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -25,10 +25,15 @@ function OffcanvasNav() {
 
           <div className="d-flex align-items-center me-auto ">
             <input
-              className="form-control me-2 d-flex"
-              style={{ marginLeft: "30px", width: "34em" }}
+              className="form-control me-2 d-flex border-0"
+              style={{
+                marginLeft: "30px",
+                width: "80rem",
+                backgroundColor: "#A6B1E1",
+                boxShadow: "none",
+              }}
               type="search"
-              placeholder="Search"
+              placeholder="Search anything here"
               aria-label="Search"
             />
           </div>
@@ -43,6 +48,7 @@ function OffcanvasNav() {
           </Link>
           <div
             className="offcanvas offcanvas-start"
+            style={{ backgroundColor: "#A6B1E1" }}
             data-bs-backdrop="static"
             tabIndex="-1"
             id="offcanvasNavbar"

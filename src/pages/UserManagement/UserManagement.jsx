@@ -3,8 +3,6 @@ import * as Icon from "react-bootstrap-icons";
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
 
 function UserManagement() {
-  document.body.style.backgroundColor = "#F5F5F5";
-
   return (
     <div class="container-fluid p-5 mt-4">
       <OffcanvasNav />
@@ -12,14 +10,14 @@ function UserManagement() {
       <div className="d-flex justify-content-between align-items-center mb-1">
         <div>
           <h1>User's List</h1>
-          <p class="text-muted">Dashboard / User Management</p>
+          <p style={{ color: "#424874" }}>Dashboard / User Management</p>
         </div>
 
         <div>
           <button
             type="button"
             class="btn ms-3 border-0"
-            style={{ color: "white", backgroundColor: "#6A5ACD" }}
+            style={{ color: "white", backgroundColor: "#424874" }}
           >
             <Icon.Plus className="me-2" style={{ color: "white" }} />
             Add New User
@@ -30,7 +28,7 @@ function UserManagement() {
       {/* Search Row */}
       <div className="row">
         <div className="col-12">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body">
               <form className="d-flex" role="search">
                 <input
@@ -53,7 +51,7 @@ function UserManagement() {
 
                 <button
                   className="btn"
-                  style={{ color: "white", backgroundColor: "#6A5ACD" }}
+                  style={{ color: "white", backgroundColor: "#424874" }}
                   type="submit"
                 >
                   Search
@@ -68,24 +66,40 @@ function UserManagement() {
       <table class="table table-borderless mt-4">
         <thead>
           <tr>
-            <th scope="col">Email</th>
-            <th scope="col">Name</th>
-            <th scope="col">Assigned Regions</th>
-            <th scope="col">Date Created</th>
-            <th scope="col">Account Type</th>
-            <th scope="col">Status</th>
-            <th scope="col">Action</th>
+            <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+              Email
+            </th>
+            <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+              Name
+            </th>
+            <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+              Assigned Regions
+            </th>
+            <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+              Date Created
+            </th>
+            <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+              Account Type
+            </th>
+            <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+              Status
+            </th>
+            <th scope="col" style={{ backgroundColor: "#DCD6F7" }}>
+              Action
+            </th>
           </tr>
         </thead>
 
         <tbody>
           <tr>
-            <td scope="row">deanna.curtis@example.com</td>
-            <td>Jenny Wilson</td>
-            <td>Region X</td>
-            <td>25.12.2001</td>
-            <td>Admin</td>
-            <td>
+            <td scope="row" style={{ backgroundColor: "#DCD6F7" }}>
+              deanna.curtis@example.com
+            </td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>Jenny Wilson</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>Region X</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>25.12.2001</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>Admin</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>
               <Icon.CircleFill
                 style={{
                   color: "#00AB41",
@@ -96,7 +110,7 @@ function UserManagement() {
               />
               Activated
             </td>
-            <td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>
               <button
                 style={{
                   marginRight: "5px",
@@ -121,12 +135,14 @@ function UserManagement() {
           </tr>
 
           <tr>
-            <td scope="row">tanya.hill@example.com</td>
-            <td>Jerome Bell</td>
-            <td>Region II</td>
-            <td>12.01.2001</td>
-            <td>User</td>
-            <td>
+            <td scope="row" style={{ backgroundColor: "#DCD6F7" }}>
+              tanya.hill@example.com
+            </td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>Jerome Bell</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>Region II</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>12.01.2001</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>User</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>
               <Icon.CircleFill
                 style={{
                   color: "gray",
@@ -137,7 +153,7 @@ function UserManagement() {
               />
               Deactivated
             </td>
-            <td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>
               <button
                 style={{
                   marginRight: "5px",
@@ -162,12 +178,14 @@ function UserManagement() {
           </tr>
 
           <tr>
-            <td scope="row">jessica.hanson@example.com</td>
-            <td>Eleanor Pena</td>
-            <td>Region V</td>
-            <td>21.07.2001</td>
-            <td>Group Lead</td>
-            <td>
+            <td scope="row" style={{ backgroundColor: "#DCD6F7" }}>
+              jessica.hanson@example.com
+            </td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>Eleanor Pena</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>Region V</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>21.07.2001</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>Group Lead</td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>
               <Icon.CircleFill
                 style={{
                   color: "#00AB41",
@@ -178,7 +196,7 @@ function UserManagement() {
               />
               Activated
             </td>
-            <td>
+            <td style={{ backgroundColor: "#DCD6F7" }}>
               <button
                 style={{
                   marginRight: "5px",

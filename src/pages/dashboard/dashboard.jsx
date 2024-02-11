@@ -3,21 +3,19 @@ import * as Icon from "react-bootstrap-icons";
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
 
 function Dashboard() {
-  document.body.style.backgroundColor = "#F5F5F5";
-
   return (
     <div class="container-fluid" style={{ paddingTop: "5rem" }}>
       <OffcanvasNav />
       <div>
         <h1>Dashboard</h1>
-        <p class="text-muted">Dashboard /</p>
+        <p style={{ color: "#424874" }}>Dashboard /</p>
       </div>
 
       {/* 1st Row */}
       <div class="row">
         {/* Total Products Card */}
         <div class="col-2">
-          <div class="card border-0">
+          <div class="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div class="card-body p-3 d-flex align-items-center">
               {/* Icon */}
               <div
@@ -25,7 +23,7 @@ function Dashboard() {
                   width: "40px",
                   height: "40px",
                   borderRadius: "50%",
-                  backgroundColor: "#CEFAD0",
+                  backgroundColor: "#A6B1E1",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
@@ -52,7 +50,7 @@ function Dashboard() {
 
         {/* Low Stock Card */}
         <div class="col-2">
-          <div class="card border-0">
+          <div class="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div class="card-body p-3 d-flex align-items-center">
               {/* Icon */}
               <div
@@ -60,7 +58,7 @@ function Dashboard() {
                   width: "40px",
                   height: "40px",
                   borderRadius: "50%",
-                  backgroundColor: "#CEFAD0",
+                  backgroundColor: "#A6B1E1",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
@@ -87,7 +85,7 @@ function Dashboard() {
 
         {/* Out of Stock Card */}
         <div class="col-2">
-          <div class="card border-0">
+          <div class="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div class="card-body p-3 d-flex align-items-center">
               {/* Icon */}
               <div
@@ -95,7 +93,7 @@ function Dashboard() {
                   width: "40px",
                   height: "40px",
                   borderRadius: "50%",
-                  backgroundColor: "#CEFAD0",
+                  backgroundColor: "#A6B1E1",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
@@ -122,7 +120,7 @@ function Dashboard() {
 
         {/* Suppliers Card */}
         <div class="col-2">
-          <div class="card border-0">
+          <div class="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div class="card-body p-3 d-flex align-items-center">
               {/* Icon */}
               <div
@@ -130,7 +128,7 @@ function Dashboard() {
                   width: "40px",
                   height: "40px",
                   borderRadius: "50%",
-                  backgroundColor: "#CEFAD0",
+                  backgroundColor: "#A6B1E1",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
@@ -157,7 +155,7 @@ function Dashboard() {
 
         {/* Zero Stock Card */}
         <div class="col-2">
-          <div class="card border-0">
+          <div class="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div class="card-body p-3 d-flex align-items-center">
               {/* Icon */}
               <div
@@ -165,7 +163,7 @@ function Dashboard() {
                   width: "40px",
                   height: "40px",
                   borderRadius: "50%",
-                  backgroundColor: "#CEFAD0",
+                  backgroundColor: "#A6B1E1",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
@@ -192,7 +190,7 @@ function Dashboard() {
 
         {/* Most Stock Card */}
         <div class="col-2">
-          <div class="card border-0">
+          <div class="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div class="card-body p-3 d-flex align-items-center">
               {/* Icon */}
               <div
@@ -200,7 +198,7 @@ function Dashboard() {
                   width: "40px",
                   height: "40px",
                   borderRadius: "50%",
-                  backgroundColor: "#CEFAD0",
+                  backgroundColor: "#A6B1E1",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
@@ -229,7 +227,7 @@ function Dashboard() {
       {/* 2nd Row */}
       <div class="row mt-4">
         <div class="col-2">
-          <div class="card border-0">
+          <div class="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div class="card-body p-3">
               <p class="card-title fw-semibold mt-3">Value of Stock</p>
               <p class="display-6 fw-bold mt-3">$ 3186</p>
@@ -250,7 +248,11 @@ function Dashboard() {
         <div className="col-2">
           <div className="d-flex align-items-center">
             <Icon.FunnelFill className="me-2" />
-            <select class="form-select" aria-label="Default select example">
+            <select
+              class="form-select"
+              style={{ backgroundColor: "#DCD6F7" }}
+              aria-label="Choose Product Filter"
+            >
               <option selected>Choose Product</option>
               <option value="1">Sandal Shoes</option>
               <option value="2">Women Sport Shoes</option>

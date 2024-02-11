@@ -15,15 +15,13 @@ import logo11 from "../../assets/logos/logo11.png";
 import logo12 from "../../assets/logos/logo12.png";
 
 function Supplier() {
-  document.body.style.backgroundColor = "#F5F5F5";
-
   return (
     <div class="container-fluid p-5 mt-4">
       <OffcanvasNav />
 
       <div>
         <h1>Suppliers List</h1>
-        <p class="text-muted">Dashboard / Supplier</p>
+        <p style={{ color: "#424874" }}>Dashboard / Supplier</p>
       </div>
 
       <div>
@@ -41,19 +39,19 @@ function Supplier() {
 
           <input
             className="form-control me-2"
-            style={{ width: "83rem" }}
+            style={{ width: "80rem" }}
             type="search"
             placeholder="Search for a Supplier"
             aria-label="Search"
           />
           <button
-            className="btn btn-success"
-            style={{ width: "7.5rem" }}
+            className="btn text-white"
+            style={{ width: "7.5rem", backgroundColor: "#424874" }}
             type="submit"
           >
             <Icon.PlusCircleFill
               className="me-2"
-              style={{ color: "#CEFAD0" }}
+              style={{ color: "#A6B1E1" }}
             />
             Supplier
           </button>
@@ -63,7 +61,7 @@ function Supplier() {
       {/* Suppliers Card */}
       <div className="row">
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -109,7 +107,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -153,7 +151,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -197,7 +195,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -241,7 +239,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -285,7 +283,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -331,7 +329,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -375,7 +373,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -419,7 +417,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -465,7 +463,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -511,7 +509,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>
@@ -555,7 +553,7 @@ function Supplier() {
         </div>
 
         <div className="col-3 mt-4">
-          <div className="card border-0">
+          <div className="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div className="card-body p-3 d-flex align-items-center">
               {/* Logo */}
               <div>

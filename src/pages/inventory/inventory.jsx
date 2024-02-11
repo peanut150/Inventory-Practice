@@ -24,16 +24,24 @@ function Inventory() {
         >
           <div>
             <h1>Inventory</h1>
-            <p>Dashboard / Inventory</p>
+            <p style={{ color: "#424874" }}>Dashboard / Inventory</p>
           </div>
 
           <div style={{ display: "flex", gap: "10px" }}>
-            <button type="button" className="btn btn-outline-warning">
+            <button
+              type="button"
+              className="btn"
+              style={{ borderColor: "#424874" }}
+            >
               <Icon.BoxArrowUp style={{ marginRight: "8px" }} />
               Export
             </button>
 
-            <button type="button" className="btn btn-warning">
+            <button
+              type="button"
+              className="btn"
+              style={{ backgroundColor: "#424874", color: "white" }}
+            >
               Add Inventory
             </button>
           </div>

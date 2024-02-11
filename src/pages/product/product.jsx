@@ -10,14 +10,13 @@ import Glasses7 from "../../assets/products/glasses-7.jpg";
 import Glasses8 from "../../assets/products/glasses-8.jpg";
 
 function Product() {
-  document.body.style.backgroundColor = "#F5F5F5";
   return (
     <div className="container-fluid p-5 mt-4">
       <OffcanvasNav />
 
       <div>
-        <h1>Product</h1>
-        <p class="text-muted">Dashboard / Product</p>
+        <h1>Products List</h1>
+        <p style={{ color: "#424874" }}>Dashboard / Product</p>
       </div>
 
       {/* 1st Row */}
@@ -62,7 +61,7 @@ function Product() {
                 Round Glasses Retro Vintage Classic Round Metal Clear Lens
                 Glasses W/ Case
               </h5>
-              <p class="card-text text-muted">
+              <p class="card-text" style={{ color: "#424874" }}>
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
@@ -87,7 +86,7 @@ function Product() {
                 XL Large Chunky Square Glasses Clear Lens Thick Frame Nerd
                 Eyewear Bold New
               </h5>
-              <p class="card-text text-muted">
+              <p class="card-text" style={{ color: "#424874" }}>
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P726.14
@@ -111,7 +110,10 @@ function Product() {
               <h5 class="card-title">
                 The Thinker Computer Anti-blue Light Glasses
               </h5>
-              <p class="card-text text-muted" style={{ marginTop: "3.4rem" }}>
+              <p
+                class="card-text"
+                style={{ marginTop: "3.4rem", color: "#424874" }}
+              >
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P850.00
@@ -141,7 +143,7 @@ function Product() {
                 Vast Round Anti Glare Black Frame Unisex Computer Glasses
                 (3447_ARC, Transparent, Medium)
               </h5>
-              <p class="card-text text-muted">
+              <p class="card-text" style={{ color: "#424874" }}>
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
@@ -166,7 +168,7 @@ function Product() {
                 ZM Fashion glasses Trendy Korean Eyeglasses with Grade 0-400
                 Anti-radiation Blue Light Glasses
               </h5>
-              <p class="card-text text-muted">
+              <p class="card-text" style={{ color: "#424874" }}>
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
@@ -188,7 +190,10 @@ function Product() {
             </div>
             <div class="card-body mt-2">
               <h5 class="card-title">Balenciaga Glasses BB0276O 001</h5>
-              <p class="card-text text-muted" style={{ marginTop: "3.6rem" }}>
+              <p
+                class="card-text"
+                style={{ marginTop: "3.6rem", color: "#424874" }}
+              >
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
@@ -215,7 +220,10 @@ function Product() {
             </div>
             <div class="card-body" style={{ marginTop: "2.5rem" }}>
               <h5 class="card-title">Glasses RALPH LAUREN RL6233U</h5>
-              <p class="card-text text-muted" style={{ marginTop: "3.7rem" }}>
+              <p
+                class="card-text"
+                style={{ marginTop: "3.7rem", color: "#424874" }}
+              >
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16
@@ -237,7 +245,10 @@ function Product() {
             </div>
             <div class="card-body">
               <h5 class="card-title">Ralph RA 7132U - 5885 Shiny Havana</h5>
-              <p class="card-text text-muted" style={{ marginTop: "3.5rem" }}>
+              <p
+                class="card-text"
+                style={{ marginTop: "3.5rem", color: "#424874" }}
+              >
                 12.09.20
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fram
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P740.16

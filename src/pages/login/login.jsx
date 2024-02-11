@@ -30,25 +30,26 @@ function Login() {
 
           <div style={{ width: "300px", textAlign: "left" }}>
             <input
-              className="form-control border-0 border-bottom outline-0 mb-3"
+              className="form-control border-0 border-bottom mb-3"
+              style={{ boxShadow: "none", backgroundColor: "#F4EEFF" }}
               type="email"
               placeholder="Email"
               aria-label="EmailInput"
-              style={{ boxShadow: "none" }}
             />
 
             <input
-              className="form-control border-0 border-bottom outline-0 mb-3"
+              className="form-control border-0 border-bottom mb-3"
+              style={{ boxShadow: "none", backgroundColor: "#F4EEFF" }}
               type="password"
               placeholder="Password"
               aria-label="PasswordInput"
-              style={{ boxShadow: "none" }}
             />
 
             <p style={{ fontSize: "14px", marginBottom: "0" }}>
               Forgot{" "}
               <a
-                className="link-offset-2 link-underline link-underline-opacity-0"
+                className="link-offset-2 link-underline link-underline-opacity-0 fw-semibold"
+                style={{ color: "#424874" }}
                 href="#"
               >
                 Password
@@ -59,7 +60,8 @@ function Login() {
               Don't have an account?{" "}
               <Link
                 to="/signup"
-                className="link-offset-2 link-underline link-underline-opacity-0"
+                className="link-offset-2 link-underline link-underline-opacity-0 fw-semibold"
+                style={{ color: "#424874" }}
               >
                 Sign up
               </Link>
@@ -68,8 +70,8 @@ function Login() {
             <div className="d-grid gap-2 mt-4">
               <button
                 type="button"
-                className="btn rounded-pill fw-semibold"
-                style={{ backgroundColor: "#71C562", color: "#fff" }}
+                className="btn rounded-pill fw-bold text-white"
+                style={{ backgroundColor: "#424874" }}
                 onClick={() => navigate("dashboard")}
               >
                 LOGIN

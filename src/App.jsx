@@ -13,6 +13,8 @@ import Settings from "./pages/settings/settings";
 import Profile from "./pages/profile/profile";
 
 function App() {
+  document.body.style.backgroundColor = "#F4EEFF";
+
   return (
     <>
       <Routes>

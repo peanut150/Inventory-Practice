@@ -1,15 +1,13 @@
 import Offcanvas from "../../components/navbar/OffcanvasNav";
 
 function Settings() {
-  document.body.style.backgroundColor = "#F5F5F5";
-
   return (
     <div className="container-fluid p-5 mt-4">
       <Offcanvas />
 
       <div>
         <h1>Profile</h1>
-        <p class="text-muted">Dashboard / Settings</p>
+        <p style={{ color: "#424874" }}>Dashboard / Settings</p>
       </div>
 
       {/* Form Input */}
@@ -36,7 +34,11 @@ function Settings() {
         </div>
 
         <div className="mt-4">
-          <button type="button" class="btn btn-info fw-semibold text-white">
+          <button
+            type="button"
+            class="btn fw-semibold text-white"
+            style={{ backgroundColor: "#424874" }}
+          >
             Submit
           </button>
         </div>

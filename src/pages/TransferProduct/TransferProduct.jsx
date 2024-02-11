@@ -3,8 +3,6 @@ import * as Icon from "react-bootstrap-icons";
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
 
 function TransferProduct() {
-  document.body.style.backgroundColor = "#F5F5F5";
-
   return (
     <div className="container-fluid p-5 mt-4">
       <OffcanvasNav />
@@ -12,22 +10,18 @@ function TransferProduct() {
       <div className="d-flex justify-content-between align-items-center mb-1">
         <div>
           <h1>Transfer Product</h1>
-          <p class="text-muted">Dashboard / Transfer Product</p>
+          <p style={{ color: "#424874" }}>Dashboard / Transfer Product</p>
         </div>
 
         <div>
-          <button
-            type="button"
-            class="btn btn-info border-0"
-            style={{ backgroundColor: "#40E0D0", color: "white" }}
-          >
+          <button type="button" class="btn" style={{ borderColor: "#424874" }}>
             Receive
           </button>
 
           <button
             type="button"
             class="btn btn-info ms-3 border-0"
-            style={{ color: "white", backgroundColor: "#6A5ACD" }}
+            style={{ color: "white", backgroundColor: "#424874" }}
           >
             <Icon.CheckLg className="me-2" style={{ color: "white" }} />
             Save
@@ -38,11 +32,11 @@ function TransferProduct() {
       {/* 1st Row */}
       <div className="row">
         <div class="col-12">
-          <div class="card border-0">
+          <div class="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div class="card-body p-3 d-flex align-items-start">
               {/* Transfer from Location */}
               <div>
-                <p class="card-title text-muted mt-2">Transfer from location</p>
+                <p class="card-title mt-2">Transfer from location</p>
                 <select
                   class="form-select"
                   style={{ width: "35rem" }}
@@ -57,7 +51,7 @@ function TransferProduct() {
 
               {/* Receiving Location */}
               <div className="ms-3">
-                <p class="card-title text-muted mt-2">Receiving location</p>
+                <p class="card-title mt-2">Receiving location</p>
                 <select
                   class="form-select"
                   style={{ width: "35rem" }}
@@ -73,37 +67,31 @@ function TransferProduct() {
               {/* Details */}
               <div className="ms-3 d-flex flex-column mt-2 ms-auto">
                 <div className="d-flex">
-                  <p className="card-title text-muted">
-                    Transfer number:&nbsp;
-                  </p>
-                  <p className="card-title text-muted fw-bold">-3</p>
+                  <p className="card-title">Transfer number:&nbsp;</p>
+                  <p className="card-title fw-bold">-3</p>
                 </div>
 
                 <div className="d-flex">
-                  <p className="card-title text-muted">
-                    Transfer creation:&nbsp;
-                  </p>
-                  <p className="card-title text-muted fw-bold">
-                    Sun, Sep 15 2019
-                  </p>
+                  <p className="card-title">Transfer creation:&nbsp;</p>
+                  <p className="card-title fw-bold">Sun, Sep 15 2019</p>
                 </div>
 
                 <div className="d-flex">
-                  <p className="card-title text-muted">
+                  <p className="card-title">
                     Transfer last updated date:&nbsp;
                   </p>
-                  <p className="card-title text-muted fw-bold">
-                    Mon, Jan 1 1900
-                  </p>
+                  <p className="card-title fw-bold">Mon, Jan 1 1900</p>
                 </div>
 
                 <div className="d-flex">
-                  <p className="card-title text-muted">
-                    Transfer status:&nbsp;
-                  </p>
+                  <p className="card-title">Transfer status:&nbsp;</p>
                   <p
-                    className="p-1 bg-secondary-subtle rounded-1 text-center"
-                    style={{ width: "10rem", fontSize: "14px" }}
+                    className="p-1 rounded-1 text-center"
+                    style={{
+                      width: "10rem",
+                      fontSize: "14px",
+                      backgroundColor: "#A6B1E1",
+                    }}
                   >
                     Draft
                   </p>
@@ -117,11 +105,11 @@ function TransferProduct() {
       {/* 2nd Row */}
       <div className="row mt-4">
         <div class="col-12">
-          <div class="card border-0">
+          <div class="card border-0" style={{ backgroundColor: "#DCD6F7" }}>
             <div class="card-body p-3 d-flex align-items-start">
               {/* Product Name Input */}
               <div>
-                <p class="card-title text-muted mt-2 fw-bold">Product name</p>
+                <p class="card-title mt-2 fw-bold">Product name</p>
                 <input
                   type="text"
                   className="form-control"
@@ -131,7 +119,7 @@ function TransferProduct() {
 
               {/* Source Input */}
               <div className="ms-3">
-                <p class="card-title text-muted mt-2 fw-bold">Source</p>
+                <p class="card-title mt-2 fw-bold">Source</p>
                 <input
                   type="number"
                   className="form-control"
@@ -141,7 +129,7 @@ function TransferProduct() {
 
               {/* Destination Input */}
               <div className="ms-3">
-                <p class="card-title text-muted mt-2 fw-bold">Destination</p>
+                <p class="card-title mt-2 fw-bold">Destination</p>
                 <input
                   type="number"
                   className="form-control"
@@ -151,7 +139,7 @@ function TransferProduct() {
 
               {/* Quantity Input */}
               <div className="ms-3">
-                <p class="card-title text-muted mt-2 fw-bold">Quantity</p>
+                <p class="card-title mt-2 fw-bold">Quantity</p>
                 <input
                   type="number"
                   className="form-control"
@@ -161,7 +149,7 @@ function TransferProduct() {
 
               {/* Source-After Input */}
               <div className="ms-3">
-                <p class="card-title text-muted mt-2 fw-bold">Source - After</p>
+                <p class="card-title mt-2 fw-bold">Source - After</p>
                 <input
                   type="number"
                   className="form-control"
@@ -171,9 +159,7 @@ function TransferProduct() {
 
               {/* Destination-After Input */}
               <div className="ms-3">
-                <p class="card-title text-muted mt-2 fw-bold">
-                  Destination - After
-                </p>
+                <p class="card-title mt-2 fw-bold">Destination - After</p>
                 <input
                   type="number"
                   className="form-control"
