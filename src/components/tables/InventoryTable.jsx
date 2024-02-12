@@ -1,7 +1,7 @@
 import * as Icon from "react-bootstrap-icons";
 
 import Logo from "../../assets/logo.png";
-import DeleteInventoryModal from "../modal/DeleteInventoryModal";
+import DeleteModal from "../modal/DeleteModal";
 
 function InventoryTable() {
   return (
@@ -149,10 +149,10 @@ function InventoryTable() {
                     color="#fff"
                     style={{ marginBottom: "2px" }}
                     data-bs-toggle="modal"
-                    data-bs-target="#deleteinventory-modal"
+                    data-bs-target="#delete-modal"
                   />
                 </button>
-                <DeleteInventoryModal />
+                <DeleteModal />
               </td>
             </tr>
 
@@ -211,10 +211,10 @@ function InventoryTable() {
                     color="#fff"
                     style={{ marginBottom: "2px" }}
                     data-bs-toggle="modal"
-                    data-bs-target="#deleteinventory-modal"
+                    data-bs-target="#delete-modal"
                   />
                 </button>
-                <DeleteInventoryModal />
+                <DeleteModal />
               </td>
             </tr>
 
@@ -271,10 +271,10 @@ function InventoryTable() {
                     color="#fff"
                     style={{ marginBottom: "2px" }}
                     data-bs-toggle="modal"
-                    data-bs-target="#deleteinventory-modal"
+                    data-bs-target="#delete-modal"
                   />
                 </button>
-                <DeleteInventoryModal />
+                <DeleteModal />
               </td>
             </tr>
           </tbody>

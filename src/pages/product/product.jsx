@@ -34,10 +34,9 @@ function Product() {
         {/* Products Filter Select */}
         <div className="col-2">
           <select class="form-select" aria-label="List of Products Filter">
-            <option selected>Filter</option>
-            <option value="1">All</option>
-            <option value="2">Available</option>
-            <option value="3">Disabled</option>
+            <option selected>All</option>
+            <option value="1">Available</option>
+            <option value="2">Disabled</option>
           </select>
         </div>
       </div>

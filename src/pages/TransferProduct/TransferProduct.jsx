@@ -1,6 +1,7 @@
 import * as Icon from "react-bootstrap-icons";
 
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
+import DeleteModal from "../../components/modal/DeleteModal";
 
 function TransferProduct() {
   return (
@@ -167,8 +168,24 @@ function TransferProduct() {
                 />
               </div>
 
-              {/* Delete Icon */}
-              <Icon.Trash className="mx-auto mt-5" />
+              {/* Delete Button */}
+              <button
+                style={{
+                  backgroundColor: "#D0312D",
+                  marginTop: "3rem",
+                  marginLeft: "4rem",
+                  border: "none",
+                  borderRadius: "5px",
+                }}
+              >
+                <Icon.Trash
+                  color="#fff"
+                  style={{ marginBottom: "2px" }}
+                  data-bs-toggle="modal"
+                  data-bs-target="#delete-modal"
+                />
+              </button>
+              <DeleteModal />
             </div>
           </div>
         </div>

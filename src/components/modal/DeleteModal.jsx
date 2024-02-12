@@ -1,16 +1,16 @@
-function DeleteInventoryModal() {
+function DeleteModal() {
   return (
     <div
       class="modal fade"
       tabindex="-1"
-      id="deleteinventory-modal"
+      id="delete-modal"
       aria-labelledby="modal-title"
       aria-hidden="true"
     >
       <div class="modal-dialog">
         <div class="modal-content" style={{ backgroundColor: "#F4EEFF" }}>
           <div class="modal-body">
-            <p>Are you sure you want to delete this inventory?</p>
+            <p>Are you sure you want to delete this?</p>
           </div>
           <div class="modal-footer">
             <button
@@ -36,4 +36,4 @@ function DeleteInventoryModal() {
     </div>
   );
 }
-export default DeleteInventoryModal;
+export default DeleteModal;
