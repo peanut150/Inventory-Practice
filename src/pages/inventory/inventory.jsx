@@ -2,6 +2,7 @@ import * as Icon from "react-bootstrap-icons";
 
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
 import InventoryTable from "../../components/tables/InventoryTable";
+import AddInventoryModal from "../../components/modal/AddInventoryModal";
 
 function Inventory() {
   return (
@@ -41,9 +42,14 @@ function Inventory() {
               type="button"
               className="btn"
               style={{ backgroundColor: "#424874", color: "white" }}
+              data-bs-toggle="modal"
+              data-bs-target="#addinventory-modal"
             >
               Add Inventory
             </button>
+
+            {/* Add Inventory Modal */}
+            <AddInventoryModal />
           </div>
         </div>
 
