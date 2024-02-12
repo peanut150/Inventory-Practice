@@ -1,6 +1,7 @@
 import * as Icon from "react-bootstrap-icons";
 
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
+import DeleteModal from "../../components/modal/DeleteModal";
 
 function UserManagement() {
   return (
@@ -128,9 +129,12 @@ function UserManagement() {
                   border: "none",
                   borderRadius: "5px",
                 }}
+                data-bs-toggle="modal"
+                data-bs-target="#delete-modal"
               >
                 <Icon.Trash color="#fff" style={{ marginBottom: "2px" }} />
               </button>
+              <DeleteModal />
             </td>
           </tr>
 
@@ -171,9 +175,12 @@ function UserManagement() {
                   border: "none",
                   borderRadius: "5px",
                 }}
+                data-bs-toggle="modal"
+                data-bs-target="#delete-modal"
               >
                 <Icon.Trash color="#fff" style={{ marginBottom: "2px" }} />
               </button>
+              <DeleteModal />
             </td>
           </tr>
 
@@ -214,9 +221,12 @@ function UserManagement() {
                   border: "none",
                   borderRadius: "5px",
                 }}
+                data-bs-toggle="modal"
+                data-bs-target="#delete-modal"
               >
                 <Icon.Trash color="#fff" style={{ marginBottom: "2px" }} />
               </button>
+              <DeleteModal />
             </td>
           </tr>
         </tbody>
