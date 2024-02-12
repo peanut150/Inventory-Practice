@@ -2,6 +2,7 @@ import * as Icon from "react-bootstrap-icons";
 
 import OffcanvasNav from "../../components/navbar/OffcanvasNav";
 import DeleteModal from "../../components/modal/DeleteModal";
+import AddUserModal from "../../components/modal/AddUserModal";
 
 function UserManagement() {
   return (
@@ -19,10 +20,13 @@ function UserManagement() {
             type="button"
             class="btn ms-3 border-0"
             style={{ color: "white", backgroundColor: "#424874" }}
+            data-bs-toggle="modal"
+            data-bs-target="#adduser-modal"
           >
             <Icon.Plus className="me-2" style={{ color: "white" }} />
             Add New User
           </button>
+          <AddUserModal />
         </div>
       </div>
 
