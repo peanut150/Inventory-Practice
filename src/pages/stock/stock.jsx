@@ -1,5 +1,7 @@
 import * as Icon from "react-bootstrap-icons";
 
+import DeleteModal from "../../components/modal/DeleteModal";
+
 import Stock1 from "../../assets/stocks/stock1.jpg";
 import Stock2 from "../../assets/stocks/stock2.jpg";
 import Stock3 from "../../assets/stocks/stock3.jpg";
@@ -86,24 +88,31 @@ function Stock() {
             <td className="align-middle" style={{ backgroundColor: "#DCD6F7" }}>
               <div className="d-flex">
                 <button
-                  type="button"
-                  className="btn btn-outline-secondary d-flex align-items-center"
-                  style={{ width: "3rem", height: "1.8rem" }}
+                  style={{
+                    marginRight: "5px",
+                    backgroundColor: "#73C2FB",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
                 >
-                  <Icon.PencilSquare
-                    style={{ fontSize: "14px", margin: "auto" }}
-                  />
+                  <Icon.Pen color="#fff" style={{ marginBottom: "2px" }} />
                 </button>
 
                 <button
-                  type="button"
-                  className="btn btn-outline-secondary d-flex align-items-center"
-                  style={{ width: "3rem", height: "1.8rem" }}
+                  style={{
+                    backgroundColor: "#D0312D",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
                 >
                   <Icon.Trash
-                    style={{ color: "red", fontSize: "14px", margin: "auto" }}
+                    color="#fff"
+                    style={{ marginBottom: "2px" }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#delete-modal"
                   />
                 </button>
+                <DeleteModal />
               </div>
             </td>
           </tr>
@@ -137,24 +146,31 @@ function Stock() {
             <td className="align-middle" style={{ backgroundColor: "#DCD6F7" }}>
               <div className="d-flex">
                 <button
-                  type="button"
-                  className="btn btn-outline-secondary d-flex align-items-center"
-                  style={{ width: "3rem", height: "1.8rem" }}
+                  style={{
+                    marginRight: "5px",
+                    backgroundColor: "#73C2FB",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
                 >
-                  <Icon.PencilSquare
-                    style={{ fontSize: "14px", margin: "auto" }}
-                  />
+                  <Icon.Pen color="#fff" style={{ marginBottom: "2px" }} />
                 </button>
 
                 <button
-                  type="button"
-                  className="btn btn-outline-secondary d-flex align-items-center"
-                  style={{ width: "3rem", height: "1.8rem" }}
+                  style={{
+                    backgroundColor: "#D0312D",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
                 >
                   <Icon.Trash
-                    style={{ color: "red", fontSize: "14px", margin: "auto" }}
+                    color="#fff"
+                    style={{ marginBottom: "2px" }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#delete-modal"
                   />
                 </button>
+                <DeleteModal />
               </div>
             </td>
           </tr>
@@ -187,24 +203,31 @@ function Stock() {
             <td className="align-middle" style={{ backgroundColor: "#DCD6F7" }}>
               <div className="d-flex">
                 <button
-                  type="button"
-                  className="btn btn-outline-secondary d-flex align-items-center"
-                  style={{ width: "3rem", height: "1.8rem" }}
+                  style={{
+                    marginRight: "5px",
+                    backgroundColor: "#73C2FB",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
                 >
-                  <Icon.PencilSquare
-                    style={{ fontSize: "14px", margin: "auto" }}
-                  />
+                  <Icon.Pen color="#fff" style={{ marginBottom: "2px" }} />
                 </button>
 
                 <button
-                  type="button"
-                  className="btn btn-outline-secondary d-flex align-items-center"
-                  style={{ width: "3rem", height: "1.8rem" }}
+                  style={{
+                    backgroundColor: "#D0312D",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
                 >
                   <Icon.Trash
-                    style={{ color: "red", fontSize: "14px", margin: "auto" }}
+                    color="#fff"
+                    style={{ marginBottom: "2px" }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#delete-modal"
                   />
                 </button>
+                <DeleteModal />
               </div>
             </td>
           </tr>
@@ -237,24 +260,31 @@ function Stock() {
             <td className="align-middle" style={{ backgroundColor: "#DCD6F7" }}>
               <div className="d-flex">
                 <button
-                  type="button"
-                  className="btn btn-outline-secondary d-flex align-items-center"
-                  style={{ width: "3rem", height: "1.8rem" }}
+                  style={{
+                    marginRight: "5px",
+                    backgroundColor: "#73C2FB",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
                 >
-                  <Icon.PencilSquare
-                    style={{ fontSize: "14px", margin: "auto" }}
-                  />
+                  <Icon.Pen color="#fff" style={{ marginBottom: "2px" }} />
                 </button>
 
                 <button
-                  type="button"
-                  className="btn btn-outline-secondary d-flex align-items-center"
-                  style={{ width: "3rem", height: "1.8rem" }}
+                  style={{
+                    backgroundColor: "#D0312D",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
                 >
                   <Icon.Trash
-                    style={{ color: "red", fontSize: "14px", margin: "auto" }}
+                    color="#fff"
+                    style={{ marginBottom: "2px" }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#delete-modal"
                   />
                 </button>
+                <DeleteModal />
               </div>
             </td>
           </tr>
