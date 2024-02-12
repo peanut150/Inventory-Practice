@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import ProfileImg from "../../assets/profile.jpg";
@@ -21,6 +20,7 @@ function Login() {
               marginBottom: "50px",
             }}
           >
+            {/* Logo */}
             <img
               src={ProfileImg}
               className="img-fluid rounded-circle"
@@ -30,17 +30,19 @@ function Login() {
           </div>
 
           <div style={{ width: "300px", textAlign: "left" }}>
+            {/* Email Input Field */}
             <input
               className="form-control border-0 border-bottom mb-3"
-              style={{ boxShadow: "none", backgroundColor: "#F4EEFF" }}
+              style={{ backgroundColor: "#F4EEFF" }}
               type="email"
               placeholder="Email"
               aria-label="EmailInput"
             />
 
+            {/* Password Input Field */}
             <input
               className="form-control border-0 border-bottom mb-3"
-              style={{ boxShadow: "none", backgroundColor: "#F4EEFF" }}
+              style={{ backgroundColor: "#F4EEFF" }}
               type="password"
               placeholder="Password"
               aria-label="PasswordInput"
@@ -75,6 +77,7 @@ function Login() {
               </Link>
             </p>
 
+            {/* Login Button */}
             <div className="d-grid gap-2 mt-4">
               <button
                 type="button"
