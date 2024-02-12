@@ -43,7 +43,14 @@ function AddInventoryModal() {
             <label for="modal-category" className="form-label fw-semibold">
               Category:
             </label>
-            <input type="text" className="form-control" id="modal-category" />
+            <select class="form-select" aria-label="model-category">
+              <option selected>Select Category</option>
+              <option value="1">Accessories</option>
+              <option value="2">Camera</option>
+              <option value="3">Headphone</option>
+              <option value="4">Laptop</option>
+              <option value="5">Watch</option>
+            </select>
 
             {/* Location Input Field */}
             <label for="modal-location" className="form-label fw-semibold">
@@ -55,19 +62,23 @@ function AddInventoryModal() {
             <label for="modal-available" className="form-label fw-semibold">
               Available:
             </label>
-            <input type="text" className="form-control" id="modal-available" />
+            <input
+              type="number"
+              className="form-control"
+              id="modal-available"
+            />
 
             {/* Reserved Input Field */}
             <label for="modal-reserved" className="form-label fw-semibold">
               Reserved:
             </label>
-            <input type="text" className="form-control" id="modal-reserved" />
+            <input type="number" className="form-control" id="modal-reserved" />
 
             {/* On Hand Input Field */}
             <label for="modal-onhand" className="form-label fw-semibold">
               On Hand:
             </label>
-            <input type="text" className="form-control" id="modal-onhand" />
+            <input type="number" className="form-control" id="modal-onhand" />
           </div>
           <div class="modal-footer">
             <button

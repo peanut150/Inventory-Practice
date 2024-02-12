@@ -105,13 +105,15 @@ function InventoryTable() {
               <th scope="row" style={{ backgroundColor: "#DCD6F7" }}>
                 01
               </th>
-              <td style={{ backgroundColor: "#DCD6F7" }}>Mark</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>Otto</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>
+                Macbook Pro M1 2020
+              </td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>#LWIL02012</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Laptop</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Warehouse 1</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>120</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>120</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>100</td>
               <td style={{ backgroundColor: "#DCD6F7" }}>
                 <button
                   style={{
@@ -159,13 +161,15 @@ function InventoryTable() {
               <th scope="row" style={{ backgroundColor: "#DCD6F7" }}>
                 02
               </th>
-              <td style={{ backgroundColor: "#DCD6F7" }}>Jacob</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>Thornton</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@fat</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>
+                Mechanical Keyboard
+              </td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>#LWIL02013</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Accessories</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Warehouse 2</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>230</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>230</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>205</td>
               <td style={{ backgroundColor: "#DCD6F7" }}>
                 <button
                   style={{
@@ -213,13 +217,13 @@ function InventoryTable() {
               <th scope="row" style={{ backgroundColor: "#DCD6F7" }}>
                 03
               </th>
-              <td style={{ backgroundColor: "#DCD6F7" }}>Larry the Bird</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@twitter</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
-              <td style={{ backgroundColor: "#DCD6F7" }}>@mdo</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Wired Mouse</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>#LWIL02014</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Accessories</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>Warehouse 3</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>1,230</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>1,230</td>
+              <td style={{ backgroundColor: "#DCD6F7" }}>1,130</td>
               <td style={{ backgroundColor: "#DCD6F7" }}>
                 <button
                   style={{
