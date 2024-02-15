@@ -40,7 +40,7 @@ function ForgotPassModal() {
           </div>
           <div className="modal-body">
             <p>We'll email you a link to reset your password.</p>
-            <label for="modal-email" className="form-label fw-semibold">
+            <label htmlFor="modal-email" className="form-label fw-semibold">
               Your email address:
             </label>
             <input

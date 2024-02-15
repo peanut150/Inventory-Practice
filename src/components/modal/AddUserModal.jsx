@@ -25,25 +25,28 @@ function AddUserModal() {
             <p>Input user details:</p>
 
             {/* Email Input Field */}
-            <label for="modal-email" className="form-label fw-semibold">
+            <label htmlFor="modal-email" className="form-label fw-semibold">
               Email:
             </label>
             <input type="email" className="form-control" id="modal-email" />
 
             {/* First Name Input Field */}
-            <label for="modal-firstname" className="form-label fw-semibold">
+            <label htmlFor="modal-firstname" className="form-label fw-semibold">
               First Name:
             </label>
             <input type="name" className="form-control" id="modal-firstname" />
 
             {/* Last Name Input Field */}
-            <label for="modal-lastname" className="form-label fw-semibold">
+            <label htmlFor="modal-lastname" className="form-label fw-semibold">
               Last Name:
             </label>
             <input type="name" className="form-control" id="modal-lastname" />
 
             {/* Assigned Regions Input Field */}
-            <label for="modal-assignregions" className="form-label fw-semibold">
+            <label
+              htmlFor="modal-assignregions"
+              className="form-label fw-semibold"
+            >
               Assigned Regions:
             </label>
             <select class="form-select" aria-label="modal-assignregions">
@@ -56,7 +59,10 @@ function AddUserModal() {
             </select>
 
             {/* Date Created Input Field */}
-            <label for="modal-datecreated" className="form-label fw-semibold">
+            <label
+              htmlFor="modal-datecreated"
+              className="form-label fw-semibold"
+            >
               Date Created:
             </label>
             <input
@@ -66,7 +72,7 @@ function AddUserModal() {
             />
 
             {/* Account Type Input Field */}
-            <label for="modal-acctType" className="form-label fw-semibold">
+            <label htmlFor="modal-acctType" className="form-label fw-semibold">
               Account Type:
             </label>
             <select class="form-select" aria-label="modal-acctType">

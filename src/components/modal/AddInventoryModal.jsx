@@ -24,13 +24,13 @@ function AddInventoryModal() {
             <p>Input product details:</p>
 
             {/* Product Name Input Field */}
-            <label for="modal-product" className="form-label fw-semibold">
+            <label htmlFor="modal-product" className="form-label fw-semibold">
               Product Name:
             </label>
             <input type="text" className="form-control" id="modal-product" />
 
             {/* Product ID Input Field */}
-            <label for="modal-productid" className="form-label fw-semibold">
+            <label htmlFor="modal-productid" className="form-label fw-semibold">
               Product ID:
             </label>
             <input
@@ -40,7 +40,7 @@ function AddInventoryModal() {
             />
 
             {/* Category Input Field */}
-            <label for="modal-category" className="form-label fw-semibold">
+            <label htmlFor="modal-category" className="form-label fw-semibold">
               Category:
             </label>
             <select class="form-select" aria-label="model-category">
@@ -53,13 +53,13 @@ function AddInventoryModal() {
             </select>
 
             {/* Location Input Field */}
-            <label for="modal-location" className="form-label fw-semibold">
+            <label htmlFor="modal-location" className="form-label fw-semibold">
               Location:
             </label>
             <input type="text" className="form-control" id="modal-location" />
 
             {/* Available Input Field */}
-            <label for="modal-available" className="form-label fw-semibold">
+            <label htmlFor="modal-available" className="form-label fw-semibold">
               Available:
             </label>
             <input
@@ -69,13 +69,13 @@ function AddInventoryModal() {
             />
 
             {/* Reserved Input Field */}
-            <label for="modal-reserved" className="form-label fw-semibold">
+            <label htmlFor="modal-reserved" className="form-label fw-semibold">
               Reserved:
             </label>
             <input type="number" className="form-control" id="modal-reserved" />
 
             {/* On Hand Input Field */}
-            <label for="modal-onhand" className="form-label fw-semibold">
+            <label htmlFor="modal-onhand" className="form-label fw-semibold">
               On Hand:
             </label>
             <input type="number" className="form-control" id="modal-onhand" />
