@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
 import * as Icon from "react-bootstrap-icons";
 
 function Signup() {

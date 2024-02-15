@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 
-import ProfileImg from "../../assets/profile.jpg";
-import ForgotPassModal from "../../components/modal/ForgotPassModal";
+import ProfileImg from "../../../assets/profile.jpg";
+import ForgotPassModal from "../../../components/modal/ForgotPassModal";
 
 function Login() {
   const navigate = useNavigate();
