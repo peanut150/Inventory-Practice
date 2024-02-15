@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import ProfileImg from "../../../assets/profile.jpg";
@@ -5,6 +6,29 @@ import ForgotPassModal from "../../../components/modal/ForgotPassModal";
 
 function Login() {
   const navigate = useNavigate();
+
+  const [data, setData] = useState({
+    email: "",
+    password: "",
+  });
+
+  const [emailError, setEmailError] = useState("");
+
+  // Email Validation Logic
+  const isEmailValid = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  // Event Handlers
+  const handleEmailChange = (event) => {
+    const email = event.target.value;
+    let d = data;
+    setData({ ...d, email });
+    setEmailError(
+      isEmailValid(email) ? "" : "Please enter a valid email address"
+    );
+  };
 
   return (
     <>
@@ -32,12 +56,16 @@ function Login() {
           <div style={{ width: "300px", textAlign: "left" }}>
             {/* Email Input Field */}
             <input
-              className="form-control border-0 border-bottom mb-3"
+              className={`form-control border-0 border-bottom outline-0 mb-3 ${
+                emailError ? "is-invalid" : ""
+              }`}
               style={{ backgroundColor: "#F4EEFF" }}
               type="email"
               placeholder="Email"
               aria-label="EmailInput"
+              onChange={handleEmailChange}
             />
+            {emailError && <div className="invalid-feedback">{emailError}</div>}
 
             {/* Password Input Field */}
             <input
@@ -46,6 +74,10 @@ function Login() {
               type="password"
               placeholder="Password"
               aria-label="PasswordInput"
+              onChange={(event) => {
+                let d = data;
+                setData({ ...d, password: event.target.value });
+              }}
             />
 
             {/* Forgot Password Link */}
@@ -83,7 +115,12 @@ function Login() {
                 type="button"
                 className="btn rounded-pill fw-bold text-white"
                 style={{ backgroundColor: "#424874" }}
-                onClick={() => navigate("dashboard")}
+                onClick={() => {
+                  if (!emailError) {
+                    // Proceed with signup logic
+                    navigate("dashboard");
+                  }
+                }}
               >
                 LOGIN
               </button>
